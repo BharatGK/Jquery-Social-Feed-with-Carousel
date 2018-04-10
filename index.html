@@ -1,0 +1,69 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/carousel/jcarousel.connected-carousels.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel/jcarousel.responsive.css">
+	<script src="js/libs/jquery/jquery.min.js"></script>
+	<script src="js/libs/social-feed/codebird.js"></script>
+    <!-- doT.js for rendering templates -->
+    <script src="js/libs/social-feed/doT.min.js"></script>
+    <!-- Moment.js for showing "time ago" -->
+    <script src="js/libs/social-feed/moment.min.js"></script>
+    <script src="js/libs/social-feed/it.js"></script>
+	
+    <!--Social feed lib js-->
+	<script src="js/libs/social-feed/jquery.socialfeed.js"></script>
+	<script type="text/javascript" src="js/libs/carousel/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/libs/carousel/jcarousel.connected-carousels.js"></script>
+	<style>
+        section .container{
+           display: none;
+        }
+        .attachment {
+            position: relative;
+            /*float: left;*/
+            width:  580px;
+            height: 290px;
+            background-position: 50% 50%;
+            background-repeat:   no-repeat;
+            background-size:     cover;
+            background-size: contain;
+        }
+    </style>
+</head>
+<title>Social Feed</title>
+
+<body>
+	<div class="col m-12">
+		<section class="feed">
+			<div class="container">
+				<div class="social-feed-container">
+				</div>
+			</div>
+		</section>
+		
+		<div class="connected-carousels">
+			<div class="stage">
+				<div class="carousel carousel-stage">
+					<ul>
+						<li class="carouselView0" style="width:600px;padding: 10px;margin:10px;"></li>
+						<li class="carouselView1" style="width:600px;padding: 10px;margin:10px;"></li>
+						<li class="carouselView2" style="width:600px;padding: 10px;margin:10px;"></li>
+						<li class="carouselView3" style="width:600px;padding: 10px;margin:10px;"></li>
+						<li class="carouselView4" style="width:600px;padding: 10px;margin:10px;"></li>
+						<li class="carouselView5" style="width:600px;padding: 10px;margin:10px;"></li>
+						<li class="carouselView6" style="width:600px;padding: 10px;margin:10px;"></li>
+						<li class="carouselView7" style="width:600px;padding: 10px;margin:10px;"></li>
+						<li class="carouselView8" style="width:600px;padding: 10px;margin:10px;"></li>
+					</ul>
+				</div>
+				<a href="#" class="prev prev-stage"><span>&lsaquo;</span></a>
+				<a href="#" class="next-stage"><span>&rsaquo;</span></a>
+			</div>
+
+		</div>
+		
+	</div>
+</body>
+    <!--Social feed controller js-->
+    <script type="text/javascript" src="js/controller/social-feed/social_feed_cred.js"></script>
+</html>
